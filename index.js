@@ -136,7 +136,7 @@ function traverseElementsToGetText(element) {
 function getAllPosts() {
   const posts = document.querySelectorAll('div[role=feed] > div')
   return [...posts].filter((post) => {
-    const posterName = post?.querySelector('h3')?.textContent
+    const posterName = post?.querySelector('h2')?.textContent
     if (posterName) {
       return true
     }
