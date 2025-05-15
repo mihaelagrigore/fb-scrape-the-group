@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Facebook Group Scraper by Adrian
+// @name         Facebook Group Scraper
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Scrapes posts and first-level comments from Facebook groups and exports to CSV
 // @author       You
-// @match        https://web.facebook.com/groups/laprimulbebe
+// @match        https://web.facebook.com/groups/*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
